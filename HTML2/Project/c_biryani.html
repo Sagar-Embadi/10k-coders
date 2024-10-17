@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Biryani's</title>
+    <style>
+        body{
+            background-color:burlywood;
+        }
+        header{
+            color: gold;
+            background-color: midnightblue;
+            text-align:right;
+        }
+        a{
+            color: aqua;
+        }
+        #menu{
+            display: flex;
+            flex-direction: row;
+            align-content: space-around;
+        }
+        .column {
+            float: left;
+            width: 31.88%;
+            padding: 10px;
+            height: 400px; /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        button{
+            background-color:crimson;
+            color: cornflowerblue;
+            padding: 2%;
+            border-radius: 1rem;
+        }
+
+    </style>
+</head>
+<body >
+    <header>
+        <h1 align="center">10K Food Court</h1>
+        <span>
+            <a href="index.html" style="text-decoration: none;">HOME</a>&emsp;&emsp;
+            <a href="#menu" style="text-decoration: none;">MENU</a>&emsp;&emsp;
+            <a href="#about" style="text-decoration: none;">ABOUT</a>&emsp;&emsp;
+            <a href="#address" style="text-decoration: none;">ADDRESS</a>&emsp;&emsp;
+            <a href="#contact" style="text-decoration: none;">CONTACT US</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <a href="login.html" style="text-decoration: none;">LOG-OUT</a>&emsp;
+        </span><br><br>
+    </header>
+    <main>
+       
+<h1 align="center">Chicken Biryani</h1>
+
+<div class="row">
+  <div class="column" style="background-color:burlywood; text-align: center;">
+    <img src="https://th.bing.com/th/id/OIP.cZGrZDTMkFZF8TV-APIVZQHaE8?w=258&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="380px">
+    <h3>Chicken Dum Biryani</h3>
+    <p>Price: &#8377;199/-</p><a href="order.html"><button>Order Now</button></a>
+  </div>
+  <div class="column" style="background-color:burlywood; text-align: center;">
+    <img src="https://th.bing.com/th/id/OIP.LMrVUyc4CLKdSwVXPrW3ywHaE8?rs=1&pid=ImgDetMain" width="380px">
+    <h3>Hyderabad Chicken Biryani</h3>
+    <p>Price: &#8377;299/-</p><a href="order.html"><button>Order Now</button></a>
+  </div>
+  <div class="column" style="background-color:burlywood; text-align: center;">
+    <img src="https://th.bing.com/th/id/OIP.pNzG4NFaf8i5W2qRzyHsEwHaEK?w=223&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="65%">
+    <h3>Fried Piece Chicken Biryani</h3>
+    <p>Price: &#8377;199/-</p><a href="order.html"><button>Order Now</button></a>
+  </div>
+</div>
+    </main>
+    <footer id="contact" style="text-align: center; background-color:midnightblue; color: aqua;">
+        <span><br>
+            &copy; Copyright belongs to Sagar Embadi 2003<br><br>
+            ✉️mail: <a href="mailto:sagarembadi7@gmail.com">sagarembadi7@gmail.com</a>&emsp;&emsp;
+            📞Phone: +91-949304681 <br><br>
+        </span>
+    </footer>  
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Day-7 Task</title>
+</head>
+<body>
+    <center>
+        <h2>Full Stack Developer Application Form</h2>
+        <fieldset>
+            <legend>Full Stack Application</legend>
+            <form action="result.txt">
+                <input type="text" placeholder="Full Name" minlength="7" maxlength="15" required><br><br>
+                <input type="email" placeholder="Email" required><br><br>
+                <input type="password" placeholder="Password" minlength="8" maxlength="15" required><br><br>
+                <input type="password" placeholder="Confirm Password" minlength="8" maxlength="15" required><br>
+                <p>Gender: <input type="radio" name="Gender" required>Male  <input type="radio" name="Gender" required>Female</p>
+                <span>Designation:</span><select required >
+                    <option value="Full Stack" selected>Full Stack</option>
+                    <option value="FrontEnd" disabled>FrontEnd</option>
+                    <option value="BackEnd" disabled>BackEnd</option>
+                </select><br>
+                <p>Upload Resume & Cover letter below</p>
+                <input type="file" required multiple>
+                <p>Schedule interview date:<input type="date"></p>
+                <button type="submit">Submit</button>
+            </form>
+        </fieldset>
+    </center>
+</body>
+</html>

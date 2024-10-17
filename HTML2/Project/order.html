@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <style>
+        #sai{
+            margin-top: 10%;
+            align-items: center;
+            background-color: skyblue;
+            width: 330px;
+            height: 450px;
+            text-align:center;
+            box-shadow: 16px 19px 17px rgba(0, 0, 0, 0.5);
+            border-radius: 1rem;
+        }
+        button{
+            background-color: blue;
+            color: azure;
+            border-radius: 1rem;
+            padding: 2% 5%;
+        }
+        body{
+            background-color: rgb(122, 152, 71);
+        }
+    </style>
+</head>
+<body >
+    <center>
+        <div id="sai">
+            <br><h3 style="text-decoration: underline;">Order Details</h3>
+            <form action="result.html">
+                <div>
+                    <label for="f_name"> Name:</label>
+                    <input type="text" id="f_name" required pattern="[a-zA-Z]{4,12}" title="Please enter your Full Name">
+                </div><br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required pattern="[a-zA-Z0-9_-#$%^&?]+@[a-z]+.[a-z]{2,}" title="Please enter your Email">
+                </div><br>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input type="text"  id="phone" required pattern="[0-9]{10}" title="Dont use country code">
+                </div>
+                <label>Address:</label><br>
+                <textarea cols="20" rows="10"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
