@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+main{
+    background-color: rgb(237, 206, 161);
+}
+h1{
+    background-color: chocolate;
+    text-align: center;
+    text-decoration: underline dotted;
+    padding: 30px;
+}
+img{
+    width: 400px;
+    margin: 35px 25px;
+}
+div{
+    display: inline-block;
+    margin: 15px 10px;
+    width: 480px;
+    height: 450px;
+    background-color: aliceblue;
+}
+h4{
+    color: midnightblue;
+    text-shadow: 2px 2px salmon;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 25px;
+    margin-top: 0px;
+    font-size: 35px;
+}
+p{
+    text-align: center;
+}
