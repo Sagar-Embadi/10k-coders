@@ -3,6 +3,7 @@
     flex-direction: row;
     gap: 10px;
     justify-content: center;
+    margin-top: 100px;
 }
 p{
     background-color: lightcyan;
@@ -14,7 +15,7 @@ p{
 .cc{
     background-color: darkslateblue;
     display: flex;
-    margin: 0px 150px;
+    margin: 100px 150px;
     border-radius: 10px;
 }
 .pcs{
@@ -24,12 +25,13 @@ p{
     width: 100%;
     height: 60px;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
     border-radius: 10px;
 }
 img{
     height: 40px;
     padding:10px;
+    margin-top: 10px;
     margin-left: 15px;
 }
 .text{
@@ -42,5 +44,37 @@ img{
     border-radius: 5px;
     background-color: yellow;
     color: black;
+}
+.cross{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    background: radial-gradient(circle,rgba(116, 115, 115, 0.718) 40%,darkslateblue,darkslateblue);
     margin-right: 25px;
+}
+.cc2{
+    background-color: rgb(36, 69, 23);
+    display: flex;
+    margin: 0px 120px;
+    border-radius: 10px;
+    margin-top: 100px;
+    align-content: center;
+}
+.pcs2{
+    background-color: rgb(36, 69, 23);
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px;
+}
+.box2{
+    padding:10px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-right: 30px;
 }
