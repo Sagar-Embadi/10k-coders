@@ -7,10 +7,11 @@ div{
     flex-wrap: wrap;
 }
 p{
+    text-align: center;
     margin: 10px;
     flex-grow: 1;
     flex-shrink: 2;
-    flex-basis: 30%;
+    /* flex-basis: 30%; */
     height: 70px;
 }
 .p1{
@@ -29,7 +30,9 @@ p{
 }
 .p5{
     background-color: purple;
+    color: aliceblue;
 }
 .p6{
     background-color: maroon;
+    color: aliceblue;
 }
