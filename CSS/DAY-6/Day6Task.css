@@ -4,11 +4,22 @@ body{
 }
 header{
     border: 2px double black;
-    background: midnightblue;
-    color: goldenrod;
+    background-color: midnightblue;
+    color: aliceblue;
     text-shadow: 4px 3px 1px black;
     padding: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.navL{
+    color: goldenrod;
+    display: flex;
+    font-size: 35px;
+}
+.navR{
+    display: flex;
+    gap: 20px;
+
 }
 main{
     border: 2px double black;
@@ -18,7 +29,7 @@ main{
     gap: 10px;
     justify-content: center;
 }
-div{
+.card{
     border: 2px solid midnightblue;
     background-color:burlywood;
     width: 410px;
