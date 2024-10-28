@@ -1,0 +1,29 @@
+summary{
+    background-color: #9B7EBD;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0px;
+ 
+}
+p{
+    background-color: #D4BEE4;
+    margin: 0px;
+    font-size: 20px;  
+    border: 2px solid grey;
+    border-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px; 
+}
+ul{
+    background-color: #D4BEE4;
+    margin: 0px;
+    font-size: 20px;  
+    
+    border-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px; 
+}

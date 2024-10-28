@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & GIT review</title>
+    <link rel="stylesheet" href="./Day7Task.css">
+</head>
+<body>
+    <details name="task">
+        <summary>1. What is CSS?</summary>
+        <p>CSS means Cascading Style Sheets, which is used to add style the webpages for better user interface and interactive purpose</p>
+    </details>
+    <details name="task">
+        <summary>2. What is mean by Cascading</summary>
+        <p><b>Cascading</b> in CSS refers to how styles are applied based on source order, specificity, and importance. It allows multiple style rules to affect an element, with the last defined rule taking precedence, more specific selectors overriding less specific ones, and '!important' styles overriding all. This system enables organized and flexible styling.</p>
+    </details>
+    <details name="task">
+        <summary>3. In how many ways we can insert css into html file</summary>
+        <p>There are three ways to insert CSS to HTML file.
+            <ul>
+                <li>Inline</li>
+                <li>Internal</li>
+                <li>External</li>
+            </ul>
+        </p>
+    </details>
+    <details name="task">
+        <summary>4. which way have more specificity and why</summary>
+        <p>Inline CSS has the highest specificity, overriding internal and external styles. Internal CSS comes next, while external styles have the lowest specificity. Specificity determines which styles apply when multiple rules target the same element. <br><b> Inline > Internal > External </b></p>
+    </details>
+    <details name="task">
+        <summary>5. What is meant by box model.</summary>
+        <p>The box model in CSS describes how elements are structured and how their dimensions are calculated. It consists of the following components: <br>
+            <b> Content:</b> The actual content of the box (text, images, etc.). <br>
+           <b> Padding: </b> The space between the content and the border, adding inner spacing. <br>
+           <b>Border: </b>The line surrounding the padding (if any) and content. <br>
+            <b>Margin:</b> The space outside the border, creating separation from other elements.</p>
+    </details >
+    <details name="task">
+        <summary>6. What are the values are there in box model</summary>
+        <p>The box model in CSS has several properties that define its values: <br>
+            <b> Width and Height:</b> Defines the size of the content area. <br>            
+            <b>Padding:</b> Controls the space between the content and the border. <br>            
+            <b> Border:</b> Specifies the width, style, and color of the border surrounding the padding. <br>            
+            <b> Margin:</b> Sets the space outside the border, separating the element from others. <br>            
+            <b>Box-sizing:</b> A property that defines how the width and height of the element are calculated, either including or excluding padding and border. <br>            
+            <b>Values:</b> <br>
+            <b>content-box</b> (default, excludes padding and border from width/height) <br>
+            <b>border-box</b> (includes padding and border in width/height)</p>
+    </details>
+    <details name="task">
+        <summary>7. Define Flex</summary>
+        <p>Flex refers to the Flexbox Layout model in CSS, which is designed to help layout elements in a one-dimensional space (either in a row or a column). It allows for flexible and responsive designs by distributing space and aligning items efficiently. <br>
+            Key features include: <b>Flexible Item Sizes</b> <b>Alignment Control </b><b>Order Control</b></p>
+    </details>
+    <details name="task">
+        <summary>8.Advantages of using flex</summary>
+        <p>The advantages of using Flexbox include: <br>
+            <b>Responsive Design:</b> Easily create layouts that adapt to different screen sizes. <br>
+            <b>Alignment Control:</b> Simple alignment of items along both main and cross axes. <br>
+            <b>Space Distribution:</b> Efficiently distribute space among items, allowing for flexible item sizing. <br>
+            <b>Order Management:</b> Change the visual order of elements without altering HTML. <br>
+            <b>Simplified Layouts:</b> Reduce the need for complex CSS floats or positioning.</p>
+    </details>
+    <details name="task">
+        <summary>9. Flex properties</summary>
+        <p>There are key Flexbox properties: <br>
+            <mark>display: flex;</mark>: Enables Flexbox on the container. <br>
+            <mark>flex-direction:</mark> Defines the direction of flex items (row, column, row-reverse, column-reverse).<br>
+            <mark>flex-wrap:</mark> Specifies whether flex items should wrap onto multiple lines.<br>
+            <mark>justify-content:</mark> Aligns items along the main axis (start, end, center, space-between, space-around).<br>
+            <mark>align-items:</mark> Aligns items along the cross axis (stretch, center, start, end, baseline).<br>
+            <mark>align-content:</mark>Aligns flex lines when there's extra space in the cross axis (similar values as align-items).</p>
+    </details>
+    <details name="task">
+        <summary>10. What is meant by text property</summary>
+        <p>The text property in CSS refers to a group of properties that control the styling of text within HTML elements. Key properties include: <br>
+            <b>color:</b> Sets the color of the text.<br>
+            <b>font-family:</b> Specifies the font used for the text.<br>
+            <b>font-size:</b> Defines the size of the text.<br>
+            <b>font-weight:</b> Controls the thickness of the text (e.g., normal, bold).<br>
+            <b>text-align: </b>Aligns the text (e.g., left, right, center).<br>
+            <b>line-height:</b> Sets the space between lines of text.<br>
+            <b>text-decoration:</b> Adds decorations like underline, overline, or strikethrough.<br>
+            <b>text-transform:</b> Controls text casing (e.g., uppercase, lowercase).</p>
+    </details>
+    <details name="task">
+        <summary>11. Define Font property</summary>
+        <p>The font property in CSS is a shorthand that allows you to set multiple font-related properties in a single declaration. It can include:<br>
+            <b>font-style:</b> Specifies the style (normal, italic, oblique).<br>
+            <b>font-variant: </b>Controls the use of small-caps.<br>
+            <b>font-weight:</b> Defines the thickness of the text (normal, bold, numeric values).<br>
+            <b>font-size: </b>Sets the size of the font.<br>
+            <b>line-height:</b> Determines the height of each line of text.<br>
+            <b>font-family:</b> Specifies the font type (e.g., Arial, Georgia).</p>
+    </details>
+    <details name="task">
+        <summary>12. Difference between text and font</summary>
+        <p><b>Text</b> refers to the actual content displayed in an HTML element (e.g., words and sentences), while <b>font</b> refers to the typeface and style used to render that text (e.g., Arial, bold). Text styling involves properties like color and alignment, whereas font properties include font-family, size, and weight. In essence, text is the content, and font determines its visual representation.</p>
+    </details>
+    <details name="task">
+        <summary>13. how many types of colors in CSS</summary>
+        <p>In CSS, there are several types of color values: <br>
+            <b>Named Colors:</b> Predefined color names (e.g., red, blue). <br>
+                <b>Hexadecimal Colors:</b> Codes starting with #, representing RGB values (e.g., #FF5733). <br>
+                    <b>RGB Colors:</b> Defined using the rgb() function, with values for red, green, and blue (e.g., rgb(255, 87, 51)). <br>            
+                        <b>RGBA Colors:</b> Similar to RGB but includes an alpha value for transparency (e.g., rgba(255, 87, 51, 0.5)). <br>
+                            <b>HSL Colors: </b>Defined using the hsl() function based on hue, saturation, and lightness (e.g., hsl(12, 100%, 60%)). <br>            
+                                <b> HSLA Colors:</b> Like HSL but includes an alpha value for transparency (e.g., hsla(12, 100%, 60%, 0.5)).</p>
+    </details>
+    <details name="task">
+        <summary>14. What is mean by hsl and hsla</summary>
+        <p><b>HSL</b> (Hue, Saturation, Lightness) is a color model in CSS that defines colors based on their hue (0-360°), saturation (0-100%), and lightness (0-100%). <br>
+            <b>HSLA </b> (Hue, Saturation, Lightness, Alpha) adds an alpha value for transparency (0 for fully transparent, 1 for fully opaque).</p>
+    </details>
+</body>
+</html>
