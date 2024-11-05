@@ -1,0 +1,33 @@
+img{
+    width: 100px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#top{
+    animation-name: top;
+}
+@keyframes top{
+    0%{
+        transform: translateX(10vw) rotate(0deg)
+    }
+    50%{
+        transform: translateX(60vw) rotate(180deg)
+    }
+    100%{
+        transform: translateX(10vw) rotate(360deg)
+    }
+}
+#side{
+    animation-name: side;
+}
+@keyframes side{
+    0%{
+        transform: translateY(10vh) rotate(0deg)
+    }
+    50%{
+        transform: translateY(80vh) rotate(180deg)
+    }
+    100%{
+        transform: translateY(10vh) rotate(360deg)
+    }
+}
