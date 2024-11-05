@@ -1,0 +1,33 @@
+/* Combinators Examples */
+div p{
+    background-color: midnightblue;
+    color: goldenrod;
+}
+div > p{
+    background-color: #fff;
+    border: 3px solid black;
+}
+div + p{
+    background-color: blue;
+    color: aliceblue;
+}
+div ~ p{
+    background-color: brown;
+}
+
+/* Attribute Selectors Examples */
+div[id="aa"]{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+    background-color: chocolate;
+}
+div > p[class="aa1"],p[class="aa2"]{
+    background-color: cadetblue;
+    color: beige;
+}
+div > a[href^="https"]{
+    background-color: blueviolet;
+    text-decoration: none;
+}
