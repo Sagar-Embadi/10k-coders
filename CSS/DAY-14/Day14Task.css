@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+img{
+    width: 30vw;
+}
+@media (max-width:600px){
+    body{
+        background-color: cadetblue;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media (min-width:601px) and (max-width:1440px){
+    body{
+        background-color: coral;
+    }
+    p{
+        font-size: 30px;
+    }
+    #head2{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+@media (min-width:1441px){
+    body{
+        background-color:darkseagreen;
+    }
+    p{
+        font-size: 40px;
+    }
+    img{
+        width: 20vw;
+    }
+    #head{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #head2{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+}
