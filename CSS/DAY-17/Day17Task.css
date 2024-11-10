@@ -1,0 +1,213 @@
+*{
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.headL{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+[alt="logo"]{
+    width: 55px;
+    height: 55px;
+}
+.headC{
+    font-size: 18px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.headC a{
+    text-decoration: none;
+    color: #444;
+}
+.headC a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.headR{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.headR img[alt="Youtube"]{
+    width: 30px;
+    height: 35px;
+    /* margin-right: 40px; */
+}
+.headR img[alt="Instagram"]{
+    width: 30px;
+    height: 30px;
+}
+.checkbox{
+    display: none;
+}
+.menu-icon{
+    font-size: 30px;
+    display: none;
+}
+.banner{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    width: 100%;
+    height: 600px;
+}
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+}
+.card h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.card p{
+    margin: 10px 0px;
+    font-size: 1.1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.card a{
+    font-size: 18px;
+    color: rgb(115, 97, 52);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+}
+.card a:hover{
+    text-decoration: underline;
+}
+.card span{
+    color: rgb(115, 97, 52);
+    font-weight: 500;
+}
+#heading, #heading2{
+    text-align: center;
+    background-color: #EBE6DD;
+    color: #555;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 10px;
+    margin: 30px 0px;
+}
+.category{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0px;
+}
+.card2{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.card2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 90%;
+}
+.card2 img:hover{
+    opacity: 100%;
+}
+.card2 p{
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-weight: 800;
+    background-color: #333333e4;
+    padding: 15px 35px;
+    font-size: 1rem;
+    transform: translate(-50%,-50%);
+    border-radius: 0.5rem;
+}
+.details{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+}
+.details1{
+    width: 40vw;
+    text-align: center;
+}
+.details1 h2{
+    font-size: 3rem;
+    background-color: #ebe1ce;
+}
+.details1 p{
+    padding: 30px;
+    font-size: 1.2rem;
+}
+.details > img{
+    width: 20vw;
+}
+footer{
+    padding: 50px;
+    background-color: beige;
+    text-align: center;
+}
+footer > p{
+    margin: 30px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:1000px){
+    .head{
+        position: relative;
+    }
+    .headC{
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .headR{
+        display: none;
+        position: absolute;
+        top: 269px;
+        left: 0px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .checkbox:checked + .headC{
+        display: flex;
+        flex-direction: column;
+    }
+    .checkbox:checked ~ .headR{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+    .banner, .category{
+        grid-template-columns: 1fr;
+    }
+}
