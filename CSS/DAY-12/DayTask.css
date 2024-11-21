@@ -1,0 +1,26 @@
+P{
+    width: 50px;
+    height: 50px;
+    background-color: midnightblue;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-name: colorP;
+    border-radius: 20px;
+}
+@keyframes colorP {
+    0%{
+        transform: translate(0vw, 50vh);
+    }
+    25%{
+        transform: translate(50vw, 0vh);
+    }
+    50%{
+        transform: translate(95vw, 50vh);
+    }
+    75%{
+        transform: translate(50vw, 90vh);
+    }
+    100%{
+        transform: translate(0vw, 50vh);
+    }
+}

@@ -1,0 +1,87 @@
+button{
+    background-color: blue;
+    color: aliceblue;
+    border: 2px double red;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: yellowgreen;
+    color: black;
+    border: 2px double midnightblue;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
+}
+button:active{
+    background-color: crimson;
+    color: aqua;
+    box-shadow: 0 0;
+}
+input:disabled{
+    background-color: lightgrey;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 1rem;
+}
+input:enabled{
+    background-color: blanchedalmond;
+    color:brown;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 1rem;
+}
+input:focus{
+    border: 5px solid gold;
+}
+input:invalid{
+    background-color: red;
+    color: aliceblue;
+}
+input:in-range{
+    background-color: green;
+    color: aliceblue;
+}
+input::placeholder{
+    color:darkblue;
+}
+[type="checkbox"]:checked + span{
+    background-color: skyblue;
+}
+p{
+    text-indent: 50px;
+    background-color: antiquewhite;
+}
+p::first-letter{
+    font-size: 40px;
+    font-family:cursive;
+}
+p::first-line{
+    background-color: burlywood;
+}
+p::selection{
+    background-color: rgba(48, 103, 221, 0.365);
+}
+[class="aa"]{
+    background-color:cornflowerblue;
+}
+[class="aa"]::before{
+    background-color: cyan;
+    content: "Hello there,";
+    font-family: cursive;
+}
+[class="aa"]::after{
+    background-color: cyan;
+    content: "class";
+    font-family: 'Courier New', Courier, monospace;
+}
+ul>li::marker{
+    color:darkblue;
+    font-size: 25px;
+}
+ol > li::marker{
+    color: red;
+    font-size: x-large;
+}
