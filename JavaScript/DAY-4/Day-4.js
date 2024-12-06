@@ -73,4 +73,5 @@ Object.seal(car)
 delete car.make
 console.log(Object.isSealed(car));//OUTPUT: true
 car.price=1300000
+console.log(Object.isExtensible(car)) // OUTPUT: false
 console.log(car);//OUTPUT: { make: 'tata', model: 'nexon', price: 1300000 }
