@@ -23,6 +23,13 @@ function a(){
 var x=100;
 a()
 
+function localfun(){
+    var s= "Mani"
+}
+console.log(s);
+localfun()
+
+
 var b=300;
 function d(){
     function e(){
