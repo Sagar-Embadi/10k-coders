@@ -29,7 +29,6 @@ function localfun(){
 console.log(s);
 localfun()
 
-
 var b=300;
 function d(){
     function e(){
