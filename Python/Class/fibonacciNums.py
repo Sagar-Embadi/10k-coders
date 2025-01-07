@@ -21,20 +21,20 @@
     finding nearest fib number to given number 
 '''
 
-num = int(input("Enter numbers: "))
-def is_fib(n):
-    a,b=0,1
-    while True:
-        if a>n :
-            return  a,(b-a)
-        a,b=b,a+b
-# print(is_fib(num))
-# print(is_fib(num)[0]-num)
-# print(is_fib(num)[1]-num)
-if(is_fib(num)[0]-num) > (num-is_fib(num)[1]):
-    print(is_fib(num)[1])
-else:
-    print(is_fib(num)[0])
+# num = int(input("Enter numbers: "))
+# def is_fib(n):
+#     a,b=0,1
+#     while True:
+#         if a>n :
+#             return  a,(b-a)
+#         a,b=b,a+b
+# # print(is_fib(num))
+# # print(is_fib(num)[0]-num)
+# # print(is_fib(num)[1]-num)
+# if(is_fib(num)[0]-num) > (num-is_fib(num)[1]):
+#     print(is_fib(num)[1])
+# else:
+#     print(is_fib(num)[0])
     
 '''
     finding nearest fib number to given number or if it present in series print that number
@@ -50,8 +50,23 @@ else:
 #         a,b=b,a+b
 # # print(is_fib(num))
 # if(is_fib(num)==num):
-#     print(num)
+#     print("It is a fib num")
 # elif(is_fib(num)[0]-num) > (is_fib(num)[1]-num):
 #     print(is_fib(num)[1])
 # else:
 #     print(is_fib(num)[0])
+
+'''
+
+'''
+
+num=int(input("Enter a number: "))
+a,b=0,1
+i=1
+while a<=num:
+    c=a+b
+    a=b
+    b=c
+print(a,b-a)
+res = "It is fib num" if b-a == num else b-a if (num-(b-a)<a-num) else a
+print(res)
