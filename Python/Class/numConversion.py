@@ -11,7 +11,14 @@
 #     dec+=(x*(2**i))
 # print(dec)
 
-#
+# STRING METHOD -2
+
+# num= input("Enter number: ")
+# dec=0
+# for i in range(len(num)-1,-1,-1):
+#     x=int(num[i])
+#     dec+=(x*(2**(len(num)-i-1)))
+# print(dec)
 
 # INTEGER METHOD
 
