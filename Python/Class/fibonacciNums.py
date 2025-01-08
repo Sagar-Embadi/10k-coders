@@ -57,16 +57,29 @@
 #     print(is_fib(num)[0])
 
 '''
-
+    nearest fibonacci number for given input number
 '''
 
-num=int(input("Enter a number: "))
-a,b=0,1
-i=1
-while a<=num:
-    c=a+b
-    a=b
-    b=c
-print(a,b-a)
-res = "It is fib num" if b-a == num else b-a if (num-(b-a)<a-num) else a
-print(res)
+# num=int(input("Enter a number: "))
+# a,b=0,1
+# i=1
+# while a<=num:
+#     c=a+b
+#     a=b
+#     b=c
+# print(a,b-a)
+# res = "It is fib num" if b-a == num else b-a if (num-(b-a)<a-num) else a
+# print(res)
+
+'''
+    print numbers other than fib number for given number of times
+'''
+num = int(input("Enter a number: "))
+a,b,count=0,1,0
+while count!=num:
+    for i in range(a+1,b):
+        count+=1
+        print(i,end=" ")
+        if count==num:
+            break
+    a,b=b,a+b
