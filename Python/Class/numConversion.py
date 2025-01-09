@@ -44,3 +44,27 @@ while num>0:
     num=num//2
 
 print(bin1)
+
+'''
+    ask and convert
+'''
+choice= input("Decimal or Binary: ")
+if choice=="Decimal":
+    num= input("Enter number: ")
+    num=num[::-1]
+    dec=0
+    for i in range(len(num)):
+        x=int(num[i])
+        dec+=(x*(2**i))
+    print(dec)
+elif choice == "Binary":
+    num=int(input("Enter a number: "))
+    bin1=""
+    while num>0:
+        rem=num%2
+        bin1= str(rem)+bin1
+        num=num//2
+    
+    print(bin1)
+else:
+    print("Plz enter Decimal or Binary correctly")
