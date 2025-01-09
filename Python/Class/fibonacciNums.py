@@ -74,12 +74,26 @@
 '''
     print numbers other than fib number for given number of times
 '''
+# num = int(input("Enter a number: "))
+# a,b,count=0,1,0
+# while count!=num:
+#     for i in range(a+1,b):
+#         count+=1
+#         print(i,end=" ")
+#         if count==num:
+#             break
+#     a,b=b,a+b
+
+"""
+    sum of non fib number for given number of range
+"""
 num = int(input("Enter a number: "))
-a,b,count=0,1,0
+a,b,count,nonFibNum=0,1,0,0
 while count!=num:
     for i in range(a+1,b):
         count+=1
-        print(i,end=" ")
+        nonFibNum+=i
         if count==num:
             break
     a,b=b,a+b
+print(nonFibNum)
