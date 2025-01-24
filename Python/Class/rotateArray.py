@@ -9,3 +9,10 @@ for i in range(k):
         num[j+1]=num[j]
     num[0]=x
 print(" ".join(num))
+
+# num = input().split()
+# k = int(input())
+# def rev(x,y):
+#     while x < y:
+#         num[x], num[y] = num[y],num[x]
+#         x,y = x+1,y-1
